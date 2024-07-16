@@ -5,7 +5,29 @@
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<script src="code.js">
+</script>
 <body>
-    <center>Bienvenido a mi Web Site</center>
+    <center>Bienvenido a mi Web Site
+    <br>
+    <br>
+    <br>
+    <table border="1">
+        <tr><td></td></tr>
+        <tr><td>Marca :</td><td>
+            <select name="cmbMarca" id="cmbMarca" onchange="precioMarcas()">
+                <option value="1">Honda</option>
+                <option value="2">Toyota</option>
+                <option value="3">Nissan</option>
+                <option value="4">Ford</option>
+                <option value="5">Mazda</option>
+            </select>
+        </td></tr>
+        <tr>
+            <td>Precio</td>
+            <td><input type="text" id="txtPrecio" name="txtPrecio"></td>
+        </tr>
+    </table>
+</center>
 </body>
 </html>
