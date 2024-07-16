@@ -41,3 +41,10 @@ function precioMarcas()
     document.getElementById("txtPrecio").value = mPrecio;   
 
 }
+
+
+
+function eventoExtras()
+{
+    alert("ingreso")
+}
